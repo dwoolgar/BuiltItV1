@@ -1,0 +1,66 @@
+# Headings
+title_text = input[data-test^='city']
+
+weather_summary_rows = div.summary
+weather_detail_rows = div.detail
+
+# day 1 row
+r1_day_text = span[data-test^='day-1'] 
+r1_date_text = span[data-test^='date-1']
+r1_description_text = svg[data-test^='description-1']
+r1_maximum_text = span[data-test^='maximum-1']
+r1_minimum_text = span[data-test^='minimum-1']
+r1_speed_text = span[data-test^='speed-1']
+r1_direction_text = span[data-test^='direction-1']
+r1_rainfall_text = span[data-test^='rainfall-1']
+r1_pressure_text = span[data-test^='pressure-1']
+r1_hourly_text_1 = span[data-test^='hour-1-1']
+
+
+
+# day 2 row
+r2_day_text = span[data-test^='day-2'] 
+r2_date_text = span[data-test^='date-2']
+r2_description_text = svg[data-test^='description-2']
+r2_maximum_text = span[data-test^='maximum-2']
+r2_minimum_text = span[data-test^='minimum-2']
+r2_speed_text = span[data-test^='speed-2']
+r2_direction_text = span[data-test^='direction-2']
+r2_rainfall_text = span[data-test^='rainfall-2']
+r2_pressure_text = span[data-test^='pressure-2']
+
+# day 3 row
+r3_day_text = span[data-test^='day-3'] 
+r3_date_text = span[data-test^='date-3']
+r3_description_text = svg[data-test^='description-3']
+r3_maximum_text = span[data-test^='maximum-3']
+r3_minimum_text = span[data-test^='minimum-3']
+r3_speed_text = span[data-test^='speed-3']
+r3_direction_text = span[data-test^='direction-3']
+r3_rainfall_text = span[data-test^='rainfall-3']
+r3_pressure_text = span[data-test^='pressure-3']
+
+# day 4 row
+r4_day_text = span[data-test^='day-4'] 
+r4_date_text = span[data-test^='date-4']
+r4_description_text = svg[data-test^='description-4']
+r4_maximum_text = span[data-test^='maximum-4']
+r4_minimum_text = span[data-test^='minimum-4']
+r4_speed_text = span[data-test^='speed-4']
+r4_direction_text = span[data-test^='direction-4']
+r4_rainfall_text = span[data-test^='rainfall-4']
+r4_pressure_text = span[data-test^='pressure-4']
+
+# day 5 row
+r5_day_text = span[data-test^='day-5'] 
+r5_date_text = span[data-test^='date-5']
+r5_description_text = svg[data-test^='description-5']
+r5_maximum_text = span[data-test^='maximum-5']
+r5_minimum_text = span[data-test^='minimum-5']
+r5_speed_text = span[data-test^='speed-5']
+r5_direction_text = span[data-test^='direction-5']
+r5_rainfall_text = span[data-test^='rainfall-5']
+r5_pressure_text = span[data-test^='pressure-5']
+
+# Error Messages
+error_message_text = div[data-test^='error'] 
